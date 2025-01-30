@@ -357,7 +357,7 @@
 	</RuleGroup>
         <!-- NEWLY ADDED SECTION TO EXCLUDE EVENT ID 5 (PROCESS TERMINATED) -->
         <RuleGroup name="Exclude Event ID 5" groupRelation="or">
-        	<ProcessTerminate onmatch="exclude"/>
+        	<ProcessTerminate onmatch="exclude"></ProcessTerminate>
         </RuleGroup>
 <!-- END OF NEW SECTION -->
 
